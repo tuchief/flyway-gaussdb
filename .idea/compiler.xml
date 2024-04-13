@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for flyway-parent" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar" />
+        </processorPath>
+        <module name="flyway-firebird" />
+        <module name="flyway-mysql" />
+        <module name="flyway-sqlserver" />
+        <module name="flyway-commandline" />
+        <module name="flyway-community-db-support" />
+        <module name="flyway-gcp-spanner" />
+        <module name="flyway-gradle-plugin" />
+        <module name="flyway-maven-plugin" />
+        <module name="flyway-core" />
+        <module name="flyway-gcp-bigquery" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

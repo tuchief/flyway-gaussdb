@@ -1,0 +1,11 @@
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleDatabase.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleConnection.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleResults.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleConfigurationExtension.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/OracleDatabaseExtension.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/package-info.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleDatabaseType.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleSchema.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleParser.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleTable.java
+/Users/tuchief/workspace/flyway/flyway-database-oracle/src/main/java/org/flywaydb/database/oracle/OracleSqlScriptExecutor.java

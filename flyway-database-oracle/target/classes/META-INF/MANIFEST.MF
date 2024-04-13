@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.flywaydb.core
+Bnd-LastModified: 1706178652687
+Build-Jdk-Spec: 11
+Bundle-Description: Flyway: Database Migrations Made Easy.
+Bundle-License: https://flywaydb.org/licenses/flyway-community
+Bundle-ManifestVersion: 2
+Bundle-Name: flyway-database-oracle
+Bundle-SymbolicName: org.flywaydb.core
+Bundle-Version: 9.22.3
+Created-By: Apache Maven Bundle Plugin 5.1.8
+Export-Package: org.flywaydb.database;version="9.22.3";uses:="org.flyway
+ db.core.extensibility"
+Import-Package: oracle.jdbc;resolution:=optional,org.flywaydb.core.api;v
+ ersion="[9.22,10)",org.flywaydb.core.api.configuration;version="[9.22,1
+ 0)",org.flywaydb.core.api.logging;version="[9.22,10)",org.flywaydb.core
+ .extensibility,org.flywaydb.core.internal.callback,org.flywaydb.core.in
+ ternal.database,org.flywaydb.core.internal.database.base,org.flywaydb.c
+ ore.internal.jdbc,org.flywaydb.core.internal.license,org.flywaydb.core.
+ internal.parser,org.flywaydb.core.internal.sqlscript,org.flywaydb.core.
+ internal.util
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-6.3.1.202206071316
